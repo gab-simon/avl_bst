@@ -1,2 +1,2 @@
 # avl_bst
-implementação de inclusão e exclusão de valores de árvore AVL.
+implementação de inclusão e exclusão de valuees de árvore AVL.
