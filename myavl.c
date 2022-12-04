@@ -5,7 +5,7 @@
 
 int main(){
     int value;
-    char recive[100];
+    char recive[300];
     node_t* root = NULL;
     
     while(fgets(recive, 100, stdin)){
@@ -14,7 +14,7 @@ int main(){
         if(strcmp(token, "i") == 0){
             token = strtok(NULL, " ");
             value = atoi(token);
-            root = insert(root, value);
+            root = insertNode(root, value);
         }
         else if (strcmp(token, "r") == 0) {
             token = strtok(NULL, " ");

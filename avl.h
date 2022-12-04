@@ -26,7 +26,7 @@ node_t* rightLeftRotation(node_t* node);
 
 node_t* balance(node_t *root);
 
-node_t* insert(node_t* root, int value);
+node_t* insertNode(node_t* root, int value);
 
 node_t* removeNode(node_t* root, int key);
 
