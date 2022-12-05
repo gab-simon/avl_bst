@@ -16,6 +16,8 @@ int larger(int a, int b);
 
 int heightNode(node_t *node);
 
+node_t *maxNo(node_t *no);
+
 node_t* leftRotation(node_t* node);
 
 node_t* rightRotation(node_t* node);

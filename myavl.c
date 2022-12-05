@@ -8,7 +8,7 @@ int main(){
     char recive[300];
     node_t* root = NULL;
     
-    while(fgets(recive, 100, stdin)){
+    while(fgets(recive, 300, stdin)){
         char *token = strtok(recive, " ");
 
         if(strcmp(token, "i") == 0){
