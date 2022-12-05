@@ -51,7 +51,12 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+<<<<<<< HEAD
 # out and in
 *.in
 *.sel
+=======
+# I/O files
+*.in
+>>>>>>> 7a65d7f93c25257e9aa6424d57b20aea2f19fc23
 *.out
