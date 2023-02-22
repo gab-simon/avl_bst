@@ -7,6 +7,8 @@ int main(){
     int value;
     char recive[300];
     node_t* root = NULL;
+
+    //doing
     
     while(fgets(recive, 300, stdin)){
         char *token = strtok(recive, " ");
